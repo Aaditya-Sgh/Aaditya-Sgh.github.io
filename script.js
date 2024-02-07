@@ -1,7 +1,14 @@
-document.getElementById('yesButton').addEventListener('click', function() {
- alert('I am so happy!');
+const noButton = document.getElementById('noButton');
+const yesButton = document.getElementById('yesButton');
+const happyAnimation = document.querySelector('.happy-animation');
+
+let size = 16;
+
+noButton.addEventListener('click', function() {
+ size += 2;
+ yesButton.style.fontSize = size + 'px';
 });
 
-document.getElementById('noButton').addEventListener('click', function() {
- alert('I understand, everything will be okay.');
+yesButton.addEventListener('click', function() {
+ happyAnimation.style.display = 'block';
 });
