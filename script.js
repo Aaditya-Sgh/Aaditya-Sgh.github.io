@@ -1,6 +1,7 @@
 const noButton = document.getElementById('noButton');
 const yesButton = document.getElementById('yesButton');
 const happyAnimation = document.querySelector('.happy-animation');
+const happyAnimation.loop = true;
 
 let size = 16;
 
