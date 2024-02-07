@@ -1,17 +1,21 @@
 body {
- background-color: #f4f4f4;
+ background-image: url('https://images.unsplash.com/photo-1441608887599-2229062097f2');
+ background-size: cover;
  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .container {
  width: 400px;
- margin: 50px auto;
+ margin: 100px auto;
  text-align: center;
+ position: relative;
 }
 
 h1 {
  font-size: 2em;
  margin-bottom: 50px;
+ color: #ff6347;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 button {
@@ -25,4 +29,10 @@ button {
  font-size: 1em;
  margin: 0 10px;
  cursor: pointer;
+ border-radius: 50px;
+ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+ background-color: #ff4f2e;
 }
